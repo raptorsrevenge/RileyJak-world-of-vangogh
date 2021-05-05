@@ -1,0 +1,111 @@
+.button {
+    position: fixed;
+    z-index: 100;
+    cursor: pointer;
+    right: 50px;
+    top: 1rem;
+    margin-right: -30px;
+    background-color: transparent;
+    color: #1e1e1e;
+    border: none;
+    margin-top: -10px;
+}
+
+.menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    z-index: 9;
+    margin-top: 0;
+    background-color: transparent;
+}
+
+.menuNav.showMenu {
+    width: 20%;
+    background-image: url("../assets/photos//Van+Gogh+Yellow.jpg");
+}
+
+.aContainer {
+    background-color: rgba(30, 31, 29, .17);
+    margin-right: 20%;
+    margin-top: 50%;
+    height: 50%;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.icon1 {
+    width: 30px;
+    height: 30px;
+}
+
+.icon2 {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 3rem;
+    font-weight: 500;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 480px) {
+    button {
+        margin-right: -40px;
+        margin-top: -10px;
+    }
+    .icon1 {
+        width: 25px;
+        height: 25px;
+    }
+    .icon2 {
+        width: 25px;
+        height: 25px;
+    }
+    .aContainer {
+        width: fit-content;
+        margin-top: 10rem;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+        margin: 2rem;
+        margin-left: 7px;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    button {
+        margin-top: -5px;
+    }
+    .icon1 {
+        width: 20px;
+        height: 20px;
+    }
+    .icon2 {
+        width: 20px;
+        height: 20px;
+    }
+    .nav-link {
+        font-size: 1.2rem;
+        margin-left: 3px;
+    }
+}
