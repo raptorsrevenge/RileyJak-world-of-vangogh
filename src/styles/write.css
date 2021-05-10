@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+.desk {
+    margin-top: -20px;
+    width: 100%;
+    height: 585px;
+    padding-top: 65px;
+}
+
+.note {
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    padding-top: .25rem;
+}
+
+.dear {
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1rem;
+}
+
+.end {
+    text-align: right;
+    margin-right: 1.5rem;
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.text-area {
+    background: transparent;
+    margin-top: 0;
+    width: 90%;
+    height: 80%;
+    border: none;
+    outline: none;
+    resize: none;
+    text-indent: 1.5rem;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.1rem;
+}
+
+.send {
+    margin-left: 57rem;
+    margin-top: 1rem;
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    background: url("../assets/photos/The Starry Night.jpeg");
+    border: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.send:hover, .send-text:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+    .desk {
+        height: 605px;
+        padding-top: 30px;
+    }
+    .note {
+        width: 90%;
+        height: 90%;
+    }
+    .send {
+        margin-left: 17.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .desk {
+        padding-top: 20px;
+        height: 625px;
+        margin-top: -22px;
+    }
+    .send {
+        width: 7rem;
+        margin-left: 11rem;
+    }
+    .note {
+        height: 560px;
+    }
+    .dear {
+        padding-top: 30px;
+    }
+}

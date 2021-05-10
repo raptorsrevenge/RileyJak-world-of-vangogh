@@ -2,11 +2,12 @@ import React from "react";
 import Nav from "./nav";
 import "../styles/header.css";
 
+import logo from "../assets/photos/logo.png";
+
 function Header() {
 	return (
 		<div>
-			<h1 className="logo">Vangoh</h1>
-			{/* turn that logo into svg maybe mask his art work into his name  */}
+			<img src={logo} alt="Van Gogh's signature" className="logo" />
 			<Nav />
 		</div>
 	);

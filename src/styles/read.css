@@ -1,0 +1,15 @@
+.letter-container {
+    background-image: url("../assets/photos/wood.jpeg");
+    text-align: center;
+    margin-top: -20px;
+    width: 100%;
+    height: 585px;
+    padding-top: 65px;
+}
+
+@media screen and (max-width: 500px) {
+    .letter-container {
+        height: fit-content;
+        padding-top: 2rem;
+    }
+}

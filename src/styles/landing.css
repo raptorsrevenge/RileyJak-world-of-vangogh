@@ -31,7 +31,7 @@ video {
 .enter-button {
     text-align: center;
     border: 5px solid whitesmoke;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     background-color: rgba(30, 31, 29, .1);
     transition: all .75s ease-in-out;
@@ -45,5 +45,31 @@ video {
 }
 
 .enter-button:hover {
-    transform: scale(1.2);
+    transform: scale(1.08);
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 4rem;
+        margin-top: 12rem;
+    }
+    .enter-button {
+        width: 60%;
+    }
+    .enter-button-text {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 3rem;
+        margin-top: 15rem;
+    }
+    .enter-button {
+        width: 80%;
+    }
+    .enter-button-text {
+        font-size: 1.65rem;
+    }
 }

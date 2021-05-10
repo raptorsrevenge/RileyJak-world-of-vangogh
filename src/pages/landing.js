@@ -6,7 +6,7 @@ import "../styles/landing.css";
 function Landing() {
 	return (
 		<>
-			<h1 className="title">The World of Vangoh</h1>
+			<h1 className="title">The World of Van Gogh</h1>
 			<div className="enter-button">
 				<Link className="enter-button-text" to="/look">
 					Enter

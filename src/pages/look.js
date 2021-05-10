@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../common/header";
+import Gallery from "../components/gallery";
 
 function Look() {
 	return (
 		<>
 			<Header />
-			<h1>Look</h1>
-			{/* use this tutorial to build the slide show https://npm.io/package/react-animated-slider */}
+
+			<Gallery />
 		</>
 	);
 }

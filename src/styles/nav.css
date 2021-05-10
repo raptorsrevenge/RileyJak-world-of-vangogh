@@ -1,10 +1,10 @@
 .button {
-    position: fixed;
+    position: absolute;
     z-index: 100;
     cursor: pointer;
     right: 50px;
     top: 1rem;
-    margin-right: -30px;
+    margin-right: -40px;
     background-color: transparent;
     color: #1e1e1e;
     border: none;
@@ -28,7 +28,7 @@
 
 .menuNav.showMenu {
     width: 20%;
-    background-image: url("../assets/photos//Van+Gogh+Yellow.jpg");
+    background-image: url("../assets/photos/Bandaged Ear.jpg");
 }
 
 .aContainer {
@@ -69,12 +69,13 @@
 
 @media screen and (max-width: 480px) {
     button {
-        margin-right: -40px;
+        margin-right: -80px;
         margin-top: -10px;
     }
     .icon1 {
         width: 25px;
         height: 25px;
+        margin-right: -10px;
     }
     .icon2 {
         width: 25px;

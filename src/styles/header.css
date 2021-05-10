@@ -1,13 +1,14 @@
 .logo {
-    font-size: 1.2rem;
     margin: 2rem;
     margin-left: 5px;
     left: 0;
     display: inline;
+    width: 150px;
+    margin-top: 3px;
 }
 
-@media screen and (max-width: 480px) {
-    .log0 {
-        font-size: 1rem;
+@media screen and (max-width: 320px) {
+    .logo {
+        width: 120px;
     }
 }
